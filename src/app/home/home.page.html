@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Phaser + Ionic 4!
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <phaser-component [gameConfig]="gameConfig" (gameReady)="onGameReady($event)"></phaser-component>
+</ion-content>
